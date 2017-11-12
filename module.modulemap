@@ -1,0 +1,11 @@
+module gdlinux [system] {
+	header "/usr/include/gd.h"
+	link "gd"
+	export *
+}
+
+module gdmac [system] {
+	header "/usr/local/include/gd.h"
+	link "gd"
+	export *
+}
